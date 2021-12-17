@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .App {
   display: grid;
   grid-template-areas:
@@ -7,4 +11,51 @@
 
 .app_header {
   background-color: #1f2c34;
+}
+nav ul{
+  background-color: #1f2c34;
+  height: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+#contact{
+  margin-right: 10vw;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 0.01px;
+}
+.Contacts{
+  height: 5vh;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3vh;
+font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+.line{
+  margin-top: 1vh;
+  background-color: white;
+  height: 1px;
+  width: 90vw;
+  margin: 3vh auto;
+}
+#im{
+  margin-left: 5vw;
+}
+#dot{
+  margin-right: 3vw;
+}
+#call{
+  border-radius: 40%;
 }
